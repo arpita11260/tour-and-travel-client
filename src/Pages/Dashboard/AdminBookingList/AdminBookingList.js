@@ -97,7 +97,7 @@ const AdminBookingList = () => {
                         <TableRow >
                             <StyledTableCell align="center" sx={{ fontWeight: 900, fontSize: 18 }}>Name</StyledTableCell>
                             <StyledTableCell align="center" sx={{ fontWeight: 900, fontSize: 16 }}>Email</StyledTableCell>
-                            <StyledTableCell align="center" sx={{ fontWeight: 900, fontSize: 18 }}>Product</StyledTableCell>
+                            <StyledTableCell align="center" sx={{ fontWeight: 900, fontSize: 18 }}>Spots</StyledTableCell>
                             <StyledTableCell align="center" sx={{ fontWeight: 900, fontSize: 18 }}>Status</StyledTableCell>
                             <StyledTableCell align="center" sx={{ fontWeight: 900, fontSize: 18 }}>Action</StyledTableCell>
                         </TableRow>

@@ -9,7 +9,7 @@ const Footer = () => {
             <Container>
                 <Grid container spacing={4}>
                     <Grid item xs={12} md={4}>
-                        <h2>Travelers</h2>
+                        <h2>Tour and Travels</h2>
                         <Typography variant="body1">Rajarbagh,Dhaka-1214</Typography>
                         <Typography variant="body1">Basabo, ShobujBagh, Dhaka BAngladesh</Typography>
                     </Grid>

@@ -76,14 +76,14 @@ function Dashboard(props) {
                             activeStyle={activeStyle}
                             to={`${url}/addProduct`}
                             style={{ textDecoration: "none", color: "black" }}>
-                            Add New Product</NavLink ><br />
+                            Add New Spots</NavLink ><br />
 
                         <NavLink
                             onClick={handleBannerText}
                             activeStyle={activeStyle}
                             to={`${url}/manageProducts`}
                             style={{ textDecoration: "none", color: "black" }}>
-                            Manage Products</NavLink ><br />
+                            Manage Spots</NavLink ><br />
 
                     </>
 

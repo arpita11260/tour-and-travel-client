@@ -97,34 +97,6 @@ export default function ProductUpdateModal({ product, openBooking, handleBooking
                                 size="small"
                             />
                             <TextField
-                                sx={{ width: '90%', m: 1 }}
-                                id="outlined-size-small"
-                                name="height"
-                                onBlur={handleOnBlur}
-                                defaultValue={height}
-                                label="height"
-                                size="small"
-                            />
-                            <TextField
-                                sx={{ width: '90%', m: 1 }}
-                                id="outlined-size-small"
-                                name="width"
-                                label="width"
-                                onBlur={handleOnBlur}
-                                size="small"
-                                defaultValue={width}
-                            />
-                            <TextField
-                                onBlur={handleOnBlur}
-                                sx={{ width: '90%', m: 1 }}
-                                label="Frame"
-                                name="frame"
-                                id="outlined-size-small"
-                                defaultValue={frame}
-                                size="small"
-                            />
-
-                            <TextField
                                 onBlur={handleOnBlur}
                                 sx={{ width: '90%', m: 1 }}
                                 label="Rating"

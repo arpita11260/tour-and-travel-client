@@ -44,7 +44,7 @@ const AdminAddProduct = () => {
                         {...register("name")}
                         required
                         name="name"
-                        label="Product Name"
+                        label="Spots Name"
                         type="texts"
                         variant="outlined"
                         sx={{ width: "100%", backgroundColor: "white", mb: 1 }} />
