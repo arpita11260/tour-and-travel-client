@@ -8,7 +8,7 @@ const AllProducts = () => {
     const [loading, setLoading] = useState(true);
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://dry-spire-62027.herokuapp.com/products')
             .then(res => res.json())
             .then(data => {
                 setProducts(data);

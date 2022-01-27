@@ -52,7 +52,7 @@ const AdminMakeAdmin = () => {
         console.log(user, authToken)
         const proceed = window.confirm('Are you want to make new admin?')
         if (proceed) {
-            fetch('http://localhost:5000/users/admin', {
+            fetch('https://dry-spire-62027.herokuapp.com/users/admin', {
                 method: 'PUT',
                 headers: {
                     'authorization': `Bearer ${authToken}`,
@@ -72,7 +72,7 @@ const AdminMakeAdmin = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:5000/users/?role=admin')
+        fetch('https://dry-spire-62027.herokuapp.com/users/?role=admin')
             .then(res => res.json())
             .then(data => {
                 setAdmins(data)

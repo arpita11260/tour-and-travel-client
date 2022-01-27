@@ -23,7 +23,7 @@ const Book = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${productId}`)
+        fetch(`https://dry-spire-62027.herokuapp.com/products/${productId}`)
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [productId]);
@@ -43,7 +43,7 @@ const Book = () => {
 
         const proceed = window.confirm("Confirm Booking ?");
         if (proceed) {
-            fetch('http://localhost:5000/bookings', {
+            fetch('https://dry-spire-62027.herokuapp.com/bookings', {
                 method: "POST",
                 headers: {
                     'content-type': 'application/json'

@@ -19,7 +19,7 @@ const BookingList = () => {
     };
 
     useEffect(() => {
-        fetch(`http://localhost:5000/bookings/?email=${user.email}`)
+        fetch(`https://dry-spire-62027.herokuapp.com/bookings/?email=${user.email}`)
             .then(res => res.json())
             .then(data => {
                 setBookings(data);
@@ -30,7 +30,7 @@ const BookingList = () => {
     const handleDeleteBooking = (id) => {
         const proceed = window.confirm('Are you sure, you want to delete?');
         if (proceed) {
-            const url = `http://localhost:5000/bookings/${id}`;
+            const url = `https://dry-spire-62027.herokuapp.com/bookings/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

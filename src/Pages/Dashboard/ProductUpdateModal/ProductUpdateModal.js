@@ -38,7 +38,7 @@ export default function ProductUpdateModal({ product, openBooking, handleBooking
         console.log(bookingInfo);
         const proceed = window.confirm('Are you want to update this product??');
         if (proceed) {
-            const url = `http://localhost:5000/products/${_id}`;
+            const url = `https://dry-spire-62027.herokuapp.com/products/${_id}`;
             fetch(url, {
                 method: 'PUT',
                 headers: {

@@ -36,7 +36,7 @@ const Feedback = () => {
                 rating: rating,
                 img: user.photoURL || 'https://www.salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png'
             };
-            fetch('http://localhost:5000/reviews', {
+            fetch('https://dry-spire-62027.herokuapp.com/reviews', {
                 method: "POST",
                 headers: {
                     'content-type': 'application/json'

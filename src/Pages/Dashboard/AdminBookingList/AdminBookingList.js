@@ -43,7 +43,7 @@ const AdminBookingList = () => {
     };
 
     useEffect(() => {
-        fetch('http://localhost:5000/allBookings')
+        fetch('https://dry-spire-62027.herokuapp.com/allBookings')
             .then(res => res.json())
             .then(data => {
                 setBookings(data)
@@ -55,7 +55,7 @@ const AdminBookingList = () => {
         setUpdateSuccess(false);
         const proceed = window.confirm('Are you want to approve this booking??');
         if (proceed) {
-            const url = `http://localhost:5000/bookings/${id}`;
+            const url = `https://dry-spire-62027.herokuapp.com/bookings/${id}`;
             fetch(url, {
                 method: 'PUT',
                 headers: {
@@ -75,7 +75,7 @@ const AdminBookingList = () => {
     const deleteBooking = (id) => {
         const proceed = window.confirm('Are you sure, you want to cancel?');
         if (proceed) {
-            const url = `http://localhost:5000/bookings/${id}`;
+            const url = `https://dry-spire-62027.herokuapp.com/bookings/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

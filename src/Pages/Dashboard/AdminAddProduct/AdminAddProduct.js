@@ -19,7 +19,7 @@ const AdminAddProduct = () => {
 
     const onSubmit = data => {
         console.log(data);
-        fetch('http://localhost:5000/products', {
+        fetch('https://dry-spire-62027.herokuapp.com/products', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
