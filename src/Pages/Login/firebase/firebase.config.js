@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCvfG2YgAAL1VEul1qnPoizIfKFPdFICN4",
-  authDomain: "tour-and-travels-6a052.firebaseapp.com",
-  projectId: "tour-and-travels-6a052",
-  storageBucket: "tour-and-travels-6a052.appspot.com",
-  messagingSenderId: "96660413058",
-  appId: "1:96660413058:web:a77e74264c759f95f5329b"
+  apiKey: "AIzaSyA0MFL8gQi40yVgCoo2hU8mV2UUiOfTZ8w",
+  authDomain: "tour-and-travels-779ec.firebaseapp.com",
+  projectId: "tour-and-travels-779ec",
+  storageBucket: "tour-and-travels-779ec.appspot.com",
+  messagingSenderId: "304815233369",
+  appId: "1:304815233369:web:aa22f94250139fa9ced448"
   };
 
   export default firebaseConfig;
